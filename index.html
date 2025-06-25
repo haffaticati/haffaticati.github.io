@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>About</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/assets/custom.css">
+
+<header>
+    <div class="header-name">
+        Hugo Affaticati
+    </div>
+    <nav>
+        <button class="nav-toggle" aria-label="Open Menu" aria-expanded="false">&#9776;</button>
+        <ul class="nav-menu">
+            <li><a href="/" class="active">About</a></li>
+            <li><a href="/publications/" class="">Publications</a></li>
+            <li><a href="/videos/" class="">Videos</a></li>
+            <li><a href="/conferences/" class="">Conferences</a></li>
+            <li><a href="/contact/" class="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', function() {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+        toggle.setAttribute('aria-expanded', !expanded);
+        menu.classList.toggle('nav-menu-visible');
+    });
+});
+</script>
+
+    <main>
+        <div class="publications-header">
+    <br />
+</div>
+
+<div class="publication-container">
+    <div class="publication-entry has-right-text">
+	<div class="publication-left">
+            <p>Cloud Infrastructure Engineer II at <a href="https://azure.microsoft.com/en-us/solutions/high-performance-computing/ai-infrastructure?msockid=1bca8350d65c681127b2939ad770690e" target="_blank">Microsoft Azure.</a></p>
+            <p>Technical Lead of <a href="https://github.com/Azure/AI-benchmarking-guide/tree/main" target="_blank">Azure AI Benchmarking Team</a></p>
+            <p>MS, Applied Physics, <a href="https://quantuminstitute.yale.edu/" target="_blank">Yale Quantum Institute, Yale University.</a></p>
+		<br />	
+	    <a href="/assets/resume/Resume_Hugo_Affaticati.pdf" class="resume-link">Resume (PDF)</a>
+		<br /><br />
+        </div>
+
+        <div class="publication-right">
+            <img src="/assets/images/hugo.png" alt="Hugo Affaticati" width="100%" />
+            <p>Hugo Affaticati (he/him)</p>
+        </div>
+    </div>
+</div>
+
+<div class="publication-container">
+    <div class="publication-entry column">
+        <h2>Expertise</h2>
+        <ul>
+            <li>AI Infrastructure with NVIDIA GPUs (GB200, H200, H100, A100), AMD MI300X, and previous generations of systems.</li>
+            <li>AI Training and Inference across frameworks (NeMo, MLPerf, TensorFlow, PyTorch, Deep Learning) and model types (GPT, LLAMA, BERT, etc.)</li>
+            <li>Supercomputer Scaling for AI workloads (High Bandwidth Memory, Storage Solutions, Network Optimization, Distributed Computing, Cloud vs. On-Prem Infrastructure)</li>
+        </ul>
+    </div>
+</div>
+
+
+    </main>
+    <footer>
+  <div class="footer-content">
+    <p>Connect with me:</p>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/hugo-affaticati" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/images/linkedin-logo.png" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/haffaticati" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/images/github-logo.png" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
+  <p>&copy; Hugo Affaticati - All Rights Reserved</p>
+</footer>
+
+<style>
+  footer {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+</style>
+
+
+
+</body>
+</html>
+

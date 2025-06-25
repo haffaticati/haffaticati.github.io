@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <link rel="stylesheet" href="/assets/custom.css">
+
+<header>
+    <div class="header-name">
+        Hugo Affaticati
+    </div>
+    <nav>
+        <button class="nav-toggle" aria-label="Open Menu" aria-expanded="false">&#9776;</button>
+        <ul class="nav-menu">
+            <li><a href="/" class="">About</a></li>
+            <li><a href="/publications/" class="">Publications</a></li>
+            <li><a href="/videos/" class="active">Videos</a></li>
+            <li><a href="/conferences/" class="">Conferences</a></li>
+            <li><a href="/contact/" class="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', function() {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+        toggle.setAttribute('aria-expanded', !expanded);
+        menu.classList.toggle('nav-menu-visible');
+    });
+});
+</script>
+
+    <main>
+        <div class="publications-header">
+    <h1>Videos and tutorials</h1>
+</div>
+
+<div class="publication-container">
+    <div class="publication-entry">                                                                                                           <div class="publication-left">                                                                                                         <a href="https://www.youtube.com/watch?v=7BBM0SrQoxg" target="_blank">Running GPT-3 Models with NVIDIA NeMo Megatron on Azure</a>
+        <br />
+ Microsoft Azure Youtube Channel
+        </div>
+        <div class="publication-right">
+                <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2024/07/llm-megatron-core-blog-2967200-1920x1080-1-960x540.jpg" alt="Research Paper SEO Image" />                                </div>
+    </div>
+
+    <div class="publication-entry">
+         <div class="publication-left">
+           <a href="https://www.youtube.com/watch?v=un-HRriwm6Q" target="_blank">Running ResNet-50 with MLPerf Training v3.0 on Azure</a>
+        <br />
+ Microsoft Azure Youtube Channel
+        </div>
+        <div class="publication-right">
+                <img src="https://i.ytimg.com/vi/un-HRriwm6Q/hqdefault.jpg" alt="Research Paper SEO Image" />
+        </div>
+    </div>
+
+    <div class="publication-entry">
+         <div class="publication-left">
+           <a href="https://www.youtube.com/watch?v=Dk_umcQjEBA" target="_blank">AI Benchmarking BERT NLP Models using MLPerf Inference v3.0 on Microsoft Azure</a>
+        <br />
+ Microsoft Azure Youtube Channel
+        </div>
+        <div class="publication-right">
+                <img src="https://i.ytimg.com/vi/Dk_umcQjEBA/hqdefault.jpg" alt="Research Paper SEO Image" />                                </div>
+    </div>
+</div>
+
+    </main>
+    <footer>
+  <div class="footer-content">
+    <p>Connect with me:</p>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/hugo-affaticati" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/images/linkedin-logo.png" alt="LinkedIn" class="footer-icon"> LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/haffaticati" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/images/github-logo.png" alt="GitHub" class="footer-icon"> GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
+  <p>&copy; Hugo Affaticati - All Rights Reserved</p>
+</footer>
+
+<style>
+  footer {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+</style>
+
+
+
+</body>
+</html>
+
